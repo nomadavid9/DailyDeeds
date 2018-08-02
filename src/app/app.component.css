@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+}
+
+.main{
+    background-color: slategray;
+    margin: 2em;  
+}
+
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightskyblue;
+    height: 100px;
+    color: azure;
+    align-items: center;
+    display: flex;
+    margin: 2em;
+  }
+
+#logo, nav {   
+    flex: 1;
+    margin-left: 1rem;
+  }
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+  }
+
+.likeabutton {
+    text-decoration: none;
+    font: menu;
+    font-size: 1.2em;
+    display: inline-block; 
+    padding: 2px 8px;
+    color: inherit;
+}
+
+/* .likeabutton:active {
+    border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+} */
