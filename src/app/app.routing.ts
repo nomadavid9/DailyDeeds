@@ -10,7 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 
 // ROUTES Array
 export const ROUTES: Routes = [
-    {path: '', redirectTo: 'login', pathMatch: 'full'},
+    {path: '', redirectTo: 'home', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
     {path: 'portfolio', component: PortfolioComponent},
     {path: 'about', component: AboutComponent},
