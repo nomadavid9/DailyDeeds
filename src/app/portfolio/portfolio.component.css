@@ -1,0 +1,8 @@
+section {
+    background-color: lightskyblue;
+    height: 100%;
+    color: azure;
+    align-items: center;
+    display: flex;
+    margin: 2em;
+  }

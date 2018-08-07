@@ -1,49 +1,22 @@
-body{
-    font-family: sans-serif;
+nav{
+    background-color: salmon;
+    height: 8em;
+    margin: 2em
 }
-
-.main{
-    background-color: slategray;
-    margin: 2em;  
+.title{
+    margin-top: 1.45rem !important;
 }
-
-body, h1, ul {
-    margin: 0;
-    padding: 0;
+.ghost-button {
+display: inline-block;
+background-color: Transparent;
+background-repeat:no-repeat;
+text-align: center;
+text-decoration: none;
+border: none;
+cursor: pointer;
+overflow: hidden;
+outline: none;
+width: 200px;
+padding: 8px;
+font-size: 1.5em;
 }
-
-header {
-    background-color: lightskyblue;
-    height: 100px;
-    color: azure;
-    align-items: center;
-    display: flex;
-    margin: 2em;
-  }
-
-#logo, nav {   
-    flex: 1;
-    margin-left: 1rem;
-  }
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-nav li {
-    list-style: none;
-  }
-
-.likeabutton {
-    text-decoration: none;
-    font: menu;
-    font-size: 1.2em;
-    display: inline-block; 
-    padding: 2px 8px;
-    color: inherit;
-}
-
-/* .likeabutton:active {
-    border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
-} */

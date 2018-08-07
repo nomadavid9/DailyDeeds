@@ -1,13 +1,33 @@
-<header>
-  <h1 id="logo">DailyDeeds</h1>
-  <nav>
-    <ul>
-      <!-- Routes for page navigation inside of a tags -->
-      <a class="likeabutton" routerLink="/home" routerLinkActive="active"> Home </a>
-      <a class="likeabutton" routerLink="/portfolio" routerLinkActive="active"> Portfolio </a>
-      <a class="likeabutton" routerLink="/about" routerLinkActive="active"> About </a>
-      <a class="likeabutton" routerLink="/contact" routerLinkActive="active"> Contact </a>
-    </ul>
-  </nav>
-</header>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <div class="navbar-item">
+      <div>
+        <h1 class="title">David Arias</h1>
+        <h3 class="subtitle is-5">Web Developer</h3>
+      </div>
+    </div>
+    <div class="navbar-burger" aria-label="menu" aria-expanded="true">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </div>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar-item">
+        <button class="ghost-button" routerLink="/home" routerLinkActive="active"> Home </button>
+      </div>
+      <div class="navbar-item">
+        <button class="ghost-button" routerLink="/portfolio" routerLinkActive="active"> Portfolio </button>
+      </div>
+      <div class="navbar-item">
+        <button class="ghost-button" routerLink="/about" routerLinkActive="active"> About </button>
+      </div>
+      <div class="navbar-item">
+        <button class="ghost-button" routerLink="/contact" routerLinkActive="active"> Contact </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
 <router-outlet></router-outlet>
